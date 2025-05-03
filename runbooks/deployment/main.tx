@@ -1,0 +1,8 @@
+################################################################
+# Manage split_token_transfer deployment through Crypto Infrastructure as Code
+################################################################
+
+addon "svm" {
+    rpc_api_url = input.rpc_api_url
+    network_id = input.network_id
+}
